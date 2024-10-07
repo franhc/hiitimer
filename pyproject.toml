@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+dependencies = [
+	"example",
+]
+
+[project]
+name = "hiitimer"
+version = "0.0.1"
+authors = [
+	{name = "Francis", email = "my@email"},
+]
+maintainers = [
+	{name = "Francis", email = "my@email"},
+]
+description = "Customizable timer to help with interval training programs."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["timer",]
